@@ -1,0 +1,13 @@
+{
+	"email":{
+		"server": "",
+		"port":"",
+		"fromaddress":"",
+		"password":""
+	},
+	"converter":{
+		"path":"C:\\Program Files (x86)\\Calibre2",
+		"uploadpath":"C:\\Users\\coreydurthaler\\Documents\\!sites\\TMP\\KindleSend\\public\\convert\\",
+		"convertedpath":"C:\\Users\\coreydurthaler\\Documents\\!sites\\TMP\\KindleSend\\public\\converted\\"
+	}
+}
