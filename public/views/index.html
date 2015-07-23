@@ -1,9 +1,15 @@
 <html>
 	<head></head>
 	<body>
-		<form action="/api/upload" method="POST" enctype="multipart/form-data">Select a book to convert:
+		<form action="/api/upload" method="POST" enctype="multipart/form-data">
+			<input type="email" name="email" placeholder="Enter kindle E-mail">
+			<label for="book">Select a book</label>
 			<input type="file" name="book">
 			<input type="submit" value="Upload & Convert">
 		</form>
+		<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+		<script>
+		  var socket = io();
+		</script>
 	</body>
 </html>

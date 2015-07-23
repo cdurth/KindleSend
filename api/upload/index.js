@@ -18,6 +18,6 @@ var upload = multer({ storage: storage });
 
 var router = express.Router();
 
-router.post('/', upload.single('book'), controller.upload);
+router.post('/', upload.fields([{name:'book',maxCount:1},{name: 'email',maxCount:1}]), controller.upload);
 
 module.exports = router;

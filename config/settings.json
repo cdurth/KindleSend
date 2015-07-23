@@ -1,9 +1,9 @@
 {
 	"email":{
-		"server": "",
+		"server": "Gmail",
 		"port":"",
-		"fromaddress":"",
-		"password":""
+		"username":"cdurth.dev@gmail.com",
+		"password":"Baseball321"
 	},
 	"converter":{
 		"path":"C:\\Program Files (x86)\\Calibre2",
